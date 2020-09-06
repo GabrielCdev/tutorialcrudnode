@@ -6,7 +6,7 @@ const ObjectId = require('mongodb').ObjectID
 
 const MongoClient = require('mongodb').MongoClient;
 
-const uri = "mongodb+srv://crudjs:<dbpassword<@cluster0.njqir.mongodb.net/<dbname>";
+const uri = "mongodb+srv://crudjs:<dbpassword><@cluster0.njqir.mongodb.net/<dbname>";
 
 MongoClient.connect(uri, (err, client) => {
     if (err) return console.log(err);
